@@ -1,0 +1,3 @@
+[submodule "kinetics-dataset"]
+	path = kinetics-dataset
+	url = https://github.com/cvdfoundation/kinetics-dataset
