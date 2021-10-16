@@ -2,6 +2,7 @@ import os
 import glob
 import numpy as np
 import argparse
+import tqdm
 
 parser = argparse.ArgumentParser(description="kinetics preprocess")
 
@@ -30,6 +31,6 @@ if __name__ == '__main__':
 
     video_file_list = glob.glob(args.videos + "/*_*_*.mp4", recursive=False)
 
-    for video_file in video_file_list:
+    for video_file in tqdm.tqdm(video_file_list):
         video_class = label_dict[os.path.split(video_file)[1][:11]]
         mv(video_file, video_class)
