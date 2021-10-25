@@ -1,0 +1,6 @@
+https://s3.amazonaws.com/kinetics/400/test/k400_test_path.txt
+https://s3.amazonaws.com/kinetics/400/val/k400_val_path.txt
+https://s3.amazonaws.com/kinetics/400/train/k400_train_path.txt
+https://s3.amazonaws.com/kinetics/400/annotations/train.csv
+https://s3.amazonaws.com/kinetics/400/annotations/val.csv
+https://s3.amazonaws.com/kinetics/400/annotations/test.csv

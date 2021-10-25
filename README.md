@@ -1,5 +1,7 @@
 # kinetics-dataset-downloader
 
+## Split file (Only)
+
 Step 1. Download the dataset from [cvdfoundation/kinetics-dataset](https://github.com/cvdfoundation/kinetics-dataset) using the official download scrips.
 
 ```bash
@@ -19,4 +21,13 @@ Step 3. Run `make_subdirectory.py` to divide videos into subdirectories accordin
 
 ```bash
 python make_subdirectory.py train.csv /path/to/video/folder
+```
+
+
+## Download and Split
+
+Just run `k400.sh`, it will do all the things for you (unless you encounter some network error and the file is corrupted).
+
+```bash
+bash k400.sh
 ```
