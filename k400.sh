@@ -3,7 +3,7 @@ mkdir data
 cd data || exit
 
 # download link list
-bash ../scripts/download_link.sh ../links.txt || exit
+bash ../scripts/download_links.sh ../links.txt || exit
 
 echo "download"
 subsets="train test val"
